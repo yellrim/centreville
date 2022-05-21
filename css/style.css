@@ -295,6 +295,7 @@ header #lnb nav > ul ul a:hover:after{
     text-align: center;
 }
 
+/* guide */
 .guide-box{
     width: 1175px;
     margin: 60px auto 55px;
@@ -478,4 +479,69 @@ header #lnb nav > ul ul a:hover:after{
 }
 .news li a:hover em:nth-of-type(4){
     width: 100%;
+}
+
+/* footer */
+footer{
+    background-color: #272f3c;
+}
+footer > div{
+    position: relative;
+    width: 1175px;
+    margin: 0 auto;
+    padding: 45px 0;
+}
+footer > div > a{
+    position: absolute;
+    right: 0;
+    top: -25px;
+    width: 39px;
+    height: 49px;
+    background: url(../img/icon.png) no-repeat -157px 8px #22a5d5;
+    color: transparent;
+}
+footer > div .left{
+    float: left;
+    line-height: 100%;
+}
+footer > div .left div a{
+    margin-right: 10px;
+    font-size: 13px;
+    color: #fff;
+}
+footer > div .left p{
+    padding: 13px 0 0;
+    line-height: 21px;
+    font-size: 13px;
+    color: #747b85;
+}
+footer > div .left p span{
+    padding: 0 13px 0 0;
+}
+footer > div .right{
+    position: relative;
+    float: right;
+}
+footer > div .right:after{
+    content: '';
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    margin-top: -3px;
+    width: 8px;
+    height: 6px;
+    background: url(../img/icon.png) no-repeat -221px -5px;
+}
+footer > div .right select{
+    width: 134px;
+    height: 29px;
+    background-color: #272f3c;
+    border: none;
+    border-bottom: 1px solid #7d828a;
+    font-size: 11px;
+    color: #fff;
+    text-indent: 20px;
+    /* 화살표 없애기 */
+    appearance: none;
+    -webkit-appearance:none;
 }
