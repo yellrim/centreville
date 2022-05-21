@@ -1,3 +1,8 @@
+.clear::after{
+    content: '';
+    display: block;
+    clear: both;
+}
 .hide{
     display: none;
 }
@@ -288,4 +293,189 @@ header #lnb nav > ul ul a:hover:after{
 }
 .center{
     text-align: center;
+}
+
+.guide-box{
+    width: 1175px;
+    margin: 60px auto 55px;
+}
+.guide-box article{
+    float: left;
+}
+.guide-box .guide h2{
+    float: left;
+    color: #000;
+    font-size: 30px;
+    line-height: 40px;
+    padding-right: 43px;
+}
+.guide-box .guide ul{
+    float: left;
+}
+
+.guide-box .guide ul li{
+    float: left;
+    padding-right: 50px;
+
+}
+.guide-box .guide ul li a{
+    display: inline-block;
+    padding-top: 70px;
+    text-align: center;
+    font-size: 15px;
+    color: #002870;
+}
+.guide-box .guide ul li:nth-child(1) a{
+    background: url(../img/ico_main_util01.png) no-repeat top;
+}
+.guide-box .guide ul li:nth-child(2) a{
+    background: url(../img/ico_main_util02.png) no-repeat top;
+    width: 56px;
+}
+.guide-box .guide ul li:nth-child(3) a{
+    background: url(../img/ico_main_util03.png) no-repeat top;
+}
+.guide-box .guide ul li:nth-child(4) a{
+    background: url(../img/ico_main_util04.png) no-repeat top;
+}
+.guide-box .phone{
+    position: relative;
+    padding-left: 55px;
+}
+.guide-box .phone:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1px;
+    height: 80px;
+    background-color: #666;
+}
+.guide-box .phone h2{
+    font-size: 15px;
+    color: #777;
+}
+.guide-box .phone > div{
+    float: left;
+}
+.guide-box .phone > div:first-child span{
+    font-size: 25px;
+    color: #042e6f;
+}
+.guide-box .phone > div:last-child{
+    position: relative;
+    top: 3px;
+    padding-left: 55px;
+    font-size: 15px;
+    color: #777;
+    font-weight: normal;
+    line-height: 100%;
+}
+.guide-box .phone > div:last-child h2,
+.guide-box .phone > div:last-child p{
+    float: left;
+}
+.guide-box .phone > div:last-child p{
+    padding: 0 0 0 25px;
+}
+.guide-box .phone > div:last-child div{
+    clear:both;
+    padding: 15px 0 0;
+}
+
+/* news */
+.news{
+    background-color: #f4f5f9;
+}
+.news > div{
+    width: 1175px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.news h2{
+    float: left;
+    width: 95px;
+    height: 95px;
+    background-color: #042e6f;
+    color: #fff;
+    line-height: 95px;
+    text-align: center;
+    font-size: 14px;
+}
+.news ul{
+    float: left;
+    padding-left: 15px;
+}
+.news li{
+    float: left;
+    padding-left: 45px;
+}
+.news li a{
+    display: block;
+    position: relative;
+    width: 310px;
+    height: 260px;
+    background-color: #fff;
+    padding: 35px 30px 0;
+    box-sizing: border-box;
+}
+.news li a h3{
+    font-size: 22px;
+    color: #222;
+    line-height: 36px;
+    font-weight: 600;
+}
+.news li a p{
+    padding: 22px 0 20px;
+    font-size: 13px;
+    color: #666666;
+}
+.news li a span{
+    font-size: 12px;
+    color: #666666;
+}
+.news li a em{
+    position: absolute;
+    background-color: #606060;
+    transition: all 0.5s;
+    opacity: 0;
+}
+.news li a em:nth-of-type(1){
+    width: 0%;
+    height: 1px;
+    left: 0;
+    top: 0;
+}
+.news li a em:nth-of-type(2){
+    width: 1px;
+    height: 0%;
+    left: 0;
+    top: 0;
+}
+.news li a em:nth-of-type(3){
+    width: 1px;
+    height: 0%;
+    right: 0;
+    bottom: 0;
+}
+.news li a em:nth-of-type(4){
+    width: 0%;
+    height: 1px;
+    right: 0;
+    bottom: 0;
+}
+.news li a:hover em{
+    opacity: 1;
+}
+.news li a:hover em:nth-of-type(1){
+    width: 100%;
+}
+.news li a:hover em:nth-of-type(2){
+    height: 100%;
+}
+.news li a:hover em:nth-of-type(3){
+    height: 100%;
+}
+.news li a:hover em:nth-of-type(4){
+    width: 100%;
 }
