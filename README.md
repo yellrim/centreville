@@ -4,4 +4,4 @@
 
 [centreville](https://yellrim.github.io/centreville/)
 
-![센트레빌 이미지](https://github.com/yellrim/fension/blob/main/README.png)
+![센트레빌 이미지](https://github.com/yellrim/centreville/blob/main/README.png)
